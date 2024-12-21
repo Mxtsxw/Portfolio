@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mxtsxw.github.io/react-gh-pages",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",

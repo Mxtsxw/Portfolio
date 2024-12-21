@@ -48,7 +48,7 @@ export default function Experiences() {
           <div className="absolute -left-10 w-4 h-4 bg-gray-400 rounded-full"></div>
           <p className="text-gray-400 text-sm mb-1">APRIL 2022 - JUNE 2022</p>
           <h3 className="text-xl font-semibold text-white">
-          Software developer and Data Science Intern &bull; Laboratoire d'Informatique Fondamental d'Orléans
+          Software developer and Data Science Intern &bull; Laboratoire d’Informatique Fondamental d’Orléans
           </h3>
           <p className="text-gray-100 mt-2">
             Developed a web-based educational solution integrating educational data mining with data preprocessing and

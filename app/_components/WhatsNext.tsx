@@ -2,7 +2,7 @@ export default function WhatsNext() {
     return (
       <div className="bg-gray-900 text-gray-300 pt-16 pb-8 px-8 flex flex-col items-center justify-center text-center">
         {/* Heading */}
-        <h2 className="text-white text-3xl font-bold mb-4">WHAT'S NEXT ?</h2>
+        <h2 className="text-white text-3xl font-bold mb-4">WHAT&apos;S NEXT ?</h2>
   
         {/* Description */}
         <p className="text-gray-400 mb-6 max-w-2xl">

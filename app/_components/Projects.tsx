@@ -11,7 +11,7 @@ export default function Experiences() {
         <ProjectCard
           title="MNIST-Classification"
           description="This project demonstrates how different neural network architectures perform on the MNIST digit classification task. Featuring shallow neural networks, deeper fully-connected models, and convolutional neural networks (CNNs) "
-          image="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/MnistExamples.png/330px-MnistExamples.png"
+          image="/project_thumbnail_MNIST.png"
           techStack={["Supervised Learning", "Deep Fast Forward", "Convolutional Neural Network", "Pytorch"]}
           link="https://github.com/Mxtsxw/MNIST-Classification"
         />

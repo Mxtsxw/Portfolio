@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Github, Linkedin, Instagram, X } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export default function Hero() {
   return (
