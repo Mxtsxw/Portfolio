@@ -6,15 +6,16 @@ export default function AboutMe() {
         
         <div className="relative flex flex-col md:flex-row items-center justify-center gap-8">
         {/* Image Section */}
-        <div className="relative w-full md:w-1/2 h-64 md:h-auto">
-          <Image
-            src="/AboutMe.png" // Replace with your image path
-            alt="Sports action"
-            className="object-cover rounded-lg" 
-            width={500}
-            height={500}
-          />
-        </div>
+        <div className="relative w-full md:w-1/2 h-64 md:h-auto hidden md:block">
+  <Image
+    src="/AboutMe.png" // Replace with your image path
+    alt="Sports action"
+    className="object-cover rounded-lg" 
+    width={500}
+    height={500}
+  />
+</div>
+
   
         {/* Text Section */}
         <div className="mt-4 md:mt-0 md:ml-4 w-full md:w-1/2 text-gray-400">
