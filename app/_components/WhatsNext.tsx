@@ -24,7 +24,7 @@ export default function WhatsNext() {
   
         {/* Call to Action */}
         <a
-          href="#contact"
+          href="mailto:matthieu.randriantsoa@etu.univ-lyon1.fr"
           className="text-teal-400 font-semibold hover:underline hover:text-teal-300 transition duration-300"
         >
           Reach Me →
