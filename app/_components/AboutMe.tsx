@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export default function AboutMe() {
     return (
-        <section className="container mx-auto px-6 max-w-screen-lg relative">
+        <section className="container mx-auto px-6 max-w-screen-lg relative py-16">
         
-        <div className="relative flex flex-col md:flex-row items-center justify-center gap-8">
-        {/* Image Section */}
-        <div className="relative w-full md:w-1/2 h-64 md:h-auto hidden md:block">
-  <Image
-    src="/AboutMe.png" // Replace with your image path
-    alt="Sports action"
-    className="object-cover rounded-lg" 
-    width={500}
-    height={500}
-  />
-</div>
+          <div className="relative flex flex-col md:flex-row items-center justify-center gap-8">
+          {/* Image Section */}
+            <div className="relative w-full md:w-1/2 h-64 md:h-auto hidden md:block">
+              <Image
+                src="/AboutMe.png" // Replace with your image path
+                alt="Sports action"
+                className="object-cover rounded-lg" 
+                width={500}
+                height={500}
+              />
+          </div>
 
   
         {/* Text Section */}

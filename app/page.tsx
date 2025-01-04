@@ -7,6 +7,7 @@ import Projects from "./_components/Projects"
 import AboutMe from "./_components/AboutMe"
 import WhatsNext from "./_components/WhatsNext";
 import ProfessionalProspect from "./_components/ProfessionalProspect";
+import SkillSection from "./_components/SkillSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Experiences />
       <Education />
       <Projects />
+      <SkillSection />
       <AboutMe />
       <WhatsNext />
       <ProfessionalProspect />
