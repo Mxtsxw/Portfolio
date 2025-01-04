@@ -14,8 +14,11 @@ export default function ProjectCard({
   link: string;
 }) {
     return (
-        <div className="bg-gray-800 text-gray-300 rounded-lg p-6 flex flex-col gap-6 items-start shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-
+        <a 
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-gray-800 text-gray-300 rounded-lg p-6 flex flex-col gap-6 items-start shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
 
         {/* Top Section: Image and Content */}
         <div className="flex gap-6 items-start w-full">
@@ -63,7 +66,7 @@ export default function ProjectCard({
 
         </div>
 
-      </div>
+      </a>
     );
   }
   
