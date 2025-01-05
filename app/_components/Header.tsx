@@ -16,7 +16,7 @@ export default function Hero() {
             DATA SCIENCE AND COMPUTER ENGINEERING STUDENT
           </h3>
           <blockquote className="mt-6 text-gray-400 mx-auto lg:mx-0 border-l-4 text-gray-400 pl-4 italic w-full">
-            "Eager to make your dream ideas come true with a few (or many) lines of code 😊"
+            &quot;Eager to make your dream ideas come true with a few (or many) lines of code 😊&quot;
           </blockquote>
 
           {/* Social Links */}
