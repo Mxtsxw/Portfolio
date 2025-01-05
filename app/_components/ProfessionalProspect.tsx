@@ -2,25 +2,30 @@
 export default function ProfessionalProspect() {
 
   return (
-    <div className="bg-gray-900 text-gray-300 flex flex-col items-center justify-center p-8">
+    <div className="bg-gray-900 text-gray-300 flex flex-col items-center justify-center tmp">
       {/* Content Div */}
       {(
-        <div className="mt-8 bg-gray-800 rounded-lg p-6 w-full max-w-xl shadow-lg">
+        <div className="mt-8 bg-gray-800 rounded-lg p-6 w-full max-w-3xl shadow-lg">
           {/* Heading */}
-          <h3 className="text-white text-2xl font-semibold mb-4 opacity-0 animate-fadeIn">
+          <h3 className="text-white text-2xl font-semibold mb-4">
             My Professional Prospect
           </h3>
 
           {/* Animated Text */}
-          <p
-            className="text-gray-300 leading-relaxed opacity-0 animate-fadeIn delay-200"
-            style={{ animationFillMode: "forwards" }}
-          >
-            I aspire to work in an innovative and collaborative environment where I
-            can contribute my skills in <span className="text-teal-400 font-medium">Software Engineering</span>, 
-            <span className="text-teal-400 font-medium"> Data Science</span>, and 
-            <span className="text-teal-400 font-medium"> DevOps</span>. My goal is to solve meaningful problems, 
-            grow professionally, and make an impact through technology and teamwork.
+          <p className="text-gray-300 leading-relaxed">
+            My long-term vision is to become an expert leader in <span className="text-sky-400  font-medium">Artificial Intelligence</span>, crafting AI-driven solutions that address challenges across industries. 
+            I am especially passionate about the transformative potential of AI in <span className="text-sky-400  font-medium">healthcare</span>, from personalized treatment planning to early diagnosis, aiming to improve patient outcomes. 
+          </p>
+          <br />
+          <p className="text-gray-300 leading-relaxed">
+          I aspire to contribute to research and innovation in this field, developing technologies that make a tangible difference. 
+          Every opportunity I embrace today is a step toward honing my technical and professional expertise, building a solid foundation to advance healthcare (and many other fields) through the power of AI.
+          </p>
+          <br />
+          <p className="text-gray-300 leading-relaxed">
+            I am driven by a deep curiosity and a desire to continuously <span>learn</span> and <span>grow</span>. Gaining hands-on experience and insights from diverse challenges excites me, as each step builds a stronger foundation for my future ambitions. 
+            My ultimate goal is to channel this knowledge into establishing my own ventures. 
+            I believe that every story is built on meaningful experiences, and I am eager to embrace each opportunity that helps me write mine with purpose, creativity, and resilience.
           </p>
         </div>
       )}

@@ -11,13 +11,13 @@ export default function WhatsNext() {
   
         {/* Skill Tags */}
         <div className="flex flex-wrap justify-center gap-4 mb-8">
-          <span className="bg-teal-600 text-white text-sm font-medium rounded-full px-4 py-1">
+          <span className="bg-sky-600 text-white text-sm font-medium rounded-full px-4 py-1">
             Artificial Intelligence
           </span>
-          <span className="bg-teal-600 text-white text-sm font-medium rounded-full px-4 py-1">
+          <span className="bg-sky-600 text-white text-sm font-medium rounded-full px-4 py-1">
             Data Science
           </span>
-          <span className="bg-teal-600 text-white text-sm font-medium rounded-full px-4 py-1">
+          <span className="bg-sky-600 text-white text-sm font-medium rounded-full px-4 py-1">
             Machine Learning
           </span>
         </div>
@@ -25,7 +25,7 @@ export default function WhatsNext() {
         {/* Call to Action */}
         <a
           href="mailto:matthieu.randriantsoa@etu.univ-lyon1.fr"
-          className="text-teal-400 font-semibold hover:underline hover:text-teal-300 transition duration-300"
+          className="text-sky-400 font-semibold hover:underline hover:text-sky-300 transition duration-300"
         >
           Reach Me →
         </a>

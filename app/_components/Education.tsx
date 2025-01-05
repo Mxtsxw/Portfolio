@@ -17,16 +17,16 @@ export default function Education() {
           </h3>
           {/* Tech Stack Badges */}
           <div className="flex gap-2 mt-4">
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Data Visualization
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Deep Learning Techniques 
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Large Language Models (LLM)
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Computer Vision
             </span>
           </div>
@@ -40,16 +40,16 @@ export default function Education() {
           </h3>
           {/* Tech Stack Badges */}
           <div className="flex gap-2 mt-4">
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Data Visualization
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Deep Learning Techniques 
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Large Language Models (LLM)
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Computer Vision
             </span>
           </div>
@@ -64,13 +64,13 @@ export default function Education() {
           </h3>
           {/* Tech Stack Badges */}
           <div className="flex gap-2 mt-4">
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Data Structures and Algorithms
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Software Development 
             </span>
-            <span className="px-2 py-1 bg-teal-600 text-white rounded-full text-xs">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Data Mining
             </span>
           </div>

@@ -1,4 +1,5 @@
 import { FaPython, FaDatabase, FaAws, FaGithub, FaChartBar, FaBrain } from "react-icons/fa";
+import { VscAzure } from "react-icons/vsc";
 
 export default function SkillSection() {
   return (
@@ -48,7 +49,7 @@ export default function SkillSection() {
           {/* Card 4: Big Data & Cloud */}
           <div className="relative group bg-gray-800 rounded-xl p-8 shadow-lg transition transform hover:-translate-y-2 hover:shadow-2xl">
             <div className="absolute top-4 right-4 text-yellow-400 text-4xl">
-              <FaAws />
+              <VscAzure />
             </div>
             <h3 className="text-xl font-bold text-white mb-4 group-hover:text-yellow-400">
               Big Data & Cloud

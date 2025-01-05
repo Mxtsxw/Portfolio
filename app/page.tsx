@@ -18,8 +18,8 @@ export default function Home() {
       <Projects />
       <SkillSection />
       <AboutMe />
-      <WhatsNext />
       <ProfessionalProspect />
+      <WhatsNext />
     </main>
   );
 }

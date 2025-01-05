@@ -14,7 +14,8 @@ export default function ProjectCard({
   link: string;
 }) {
     return (
-        <a 
+        <div>
+          <a 
         href={link}
         target="_blank"
         rel="noopener noreferrer"
@@ -45,7 +46,7 @@ export default function ProjectCard({
                 {techStack.map((tech: string, index: number) => (
                 <span
                     key={index}
-                    className="bg-teal-600 text-white text-xs rounded-full px-2 py-1"
+                    className="bg-purple-600 text-white text-xs rounded-full px-2 py-1"
                 >
                     {tech}
                 </span>
@@ -56,7 +57,7 @@ export default function ProjectCard({
             <div className="flex justify-end mt-4">
                 <a
                 href={link}
-                className="text-teal-400 hover:underline text-sm font-medium"
+                className="text-sky-400 hover:underline text-sm font-medium"
                 target="blank"
                 >
                 More about
@@ -67,6 +68,7 @@ export default function ProjectCard({
         </div>
 
       </a>
+        </div>
     );
   }
   
