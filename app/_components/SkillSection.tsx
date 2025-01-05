@@ -1,4 +1,4 @@
-import { FaPython, FaDatabase, FaAws, FaGithub, FaChartBar, FaBrain } from "react-icons/fa";
+import { FaPython, FaGithub, FaChartBar, FaBrain } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
 
 export default function SkillSection() {
