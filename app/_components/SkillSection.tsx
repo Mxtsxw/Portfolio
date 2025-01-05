@@ -29,7 +29,7 @@ export default function SkillSection() {
               Data Analysis & Visualization
             </h3>
             <p className="text-gray-400">
-              Pandas, NumPy, Matplotlib, Seaborn, Tableau
+              Pandas, NumPy, Matplotlib, Seaborn, Tableau, D3.js
             </p>
           </div>
 
