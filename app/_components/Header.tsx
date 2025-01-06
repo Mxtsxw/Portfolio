@@ -31,7 +31,7 @@ export default function Hero() {
         </div>
 
         {/* Right Section - Profile Image */}
-        <div className="w-80 h-80 lg:w-80 lg:h-80 my-6 lg:my-0 relative">
+        <div className="w-80 h-80 lg:w-96 lg:h-100 my-6 lg:my-0 relative">
           <Image
             src="/profile.png"
             alt="Profile"
@@ -42,40 +42,40 @@ export default function Hero() {
         </div>
       </div>
       {/* Buttons for Small Screens */}
-<div className="flex lg:hidden mt-8 space-x-4 justify-center tmp">
-  <a
-    href="documents/CV_Matthieu_RANDRIANTSOA.pdf"
-    target="_blank"
-    className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md"
-  >
-    My Resume
-  </a>
-  <a
-    href="documents/CL_Matthieu_Randriantsoa_Roche.pdf"
-    target="_blank"
-    className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md"
-  >
-    My Cover Letter
-  </a>
-</div>
+      <div className="flex lg:hidden mt-8 space-x-4 justify-center tmp">
+        <a
+          href="documents/CV_Matthieu_RANDRIANTSOA.pdf"
+          target="_blank"
+          className="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md"
+        >
+          My Resume
+        </a>
+        <a
+          href="documents/CL_Matthieu_Randriantsoa_Roche.pdf"
+          target="_blank"
+          className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md"
+        >
+          My Cover Letter
+        </a>
+      </div>
 
-{/* Buttons for Large Screens */}
-<div className="hidden lg:flex lg:justify-start mt-8 space-x-4 justify-center tmp">
-  <a
-    href="documents/CV_Matthieu_RANDRIANTSOA.pdf"
-    target="_blank"
-    className="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transform transition-all duration-300 animate-float"
-  >
-    My Resume
-  </a>
-  <a
-    href="documents/CL_Matthieu_Randriantsoa_Roche.pdf"
-    target="_blank"
-    className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transform transition-all duration-300 animate-float delay-200"
-  >
-    My Cover Letter
-  </a>
-</div>
+      {/* Buttons for Large Screens */}
+      <div className="hidden lg:flex lg:justify-start mt-8 space-x-4 justify-center tmp">
+        <a
+          href="documents/CV_Matthieu_RANDRIANTSOA.pdf"
+          target="_blank"
+          className="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transform transition-all duration-300 animate-float"
+        >
+          My Resume
+        </a>
+        <a
+          href="documents/CL_Matthieu_Randriantsoa_Roche.pdf"
+          target="_blank"
+          className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transform transition-all duration-300 animate-float delay-200"
+        >
+          My Cover Letter
+        </a>
+      </div>
 
     </header>
   );
