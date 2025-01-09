@@ -83,7 +83,7 @@ export default function Education() {
         {/* Left Line */}
         <div className="flex-1 border-t border-gray-500"></div>
         {/* Centered Text */}
-        <a href="https://www.linkedin.com/in/matthieu-randriantsoa" target="_blank" className="hover:scale-105 whitespace-nowrap transition-all duration-300">
+        <a href="documents/CV_Matthieu_RANDRIANTSOA.pdf" target="_blank" className="hover:scale-105 whitespace-nowrap transition-all duration-300">
         <span className="px-4 text-gray-300 font-semibold whitespace-nowrap">
           SEE MY RESUME
         </span>
