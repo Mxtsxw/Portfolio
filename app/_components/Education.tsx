@@ -41,16 +41,16 @@ export default function Education() {
           {/* Tech Stack Badges */}
           <div className="flex gap-2 mt-4">
             <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
-            Data Visualization
+            Software Development
             </span>
             <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
-            Deep Learning Techniques 
+            Statistical Analysis 
             </span>
             <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
-            Large Language Models (LLM)
+            Deep Learning
             </span>
             <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
-            Computer Vision
+            Big Data
             </span>
           </div>
         </div>
@@ -72,6 +72,9 @@ export default function Education() {
             </span>
             <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
             Data Mining
+            </span>
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
+            Natural language Processing (NLP)
             </span>
           </div>
         </div>
