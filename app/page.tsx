@@ -5,7 +5,6 @@ import Experiences from "./_components/Experiences"
 import Education from "./_components/Education"
 import Projects from "./_components/Projects"
 import AboutMe from "./_components/AboutMe"
-import WhatsNext from "./_components/WhatsNext";
 import ProfessionalProspect from "./_components/ProfessionalProspect";
 import SkillSection from "./_components/SkillSection";
 
@@ -19,7 +18,6 @@ export default function Home() {
       <SkillSection />
       <AboutMe />
       <ProfessionalProspect />
-      <WhatsNext />
     </main>
   );
 }
