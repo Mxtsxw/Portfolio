@@ -8,7 +8,45 @@ export default function Experiences() {
 
       {/* Experience Timeline */}
       <div className="relative border-l border-gray-600">
+
         {/* Experience Item 1 */}
+        <div className="mb-12 ml-8 relative">
+          <div className="absolute -left-10 w-4 h-4 bg-gray-400 rounded-full"></div>
+          <p className="text-gray-400 text-sm mb-1">MARCH 2025 - SEPTEMBER 2025</p>
+          <h3 className="text-xl font-semibold text-white">
+            Data Scientist Intern &bull; Toyota Motor Europe
+          </h3>
+          <p className="text-gray-100 mt-2">
+            Worked in the R&D Connected Powertrain Division, supporting projects on vehicle reliability through data science and machine learning tasks.
+          </p>
+          <p>&bull; Built Python data pipelines (Scikit-learn, Pandas) to reconstruct incomplete or erroneous driving datasets, enabling accurate simulations for R&D processes.</p>
+          <p>&bull; Created tailored solutions aligned with internal R&D constraints, improving data quality and supporting research efforts.</p>
+          <p>&bull; Designed predictive models for early detection of battery failures using supervised and unsupervised learning, including time series forecasting.</p>
+          <p>&bull; Enhanced model performance by 5% through algorithm optimization and feature engineering, proposing forecasting methods to further boost predictive performance.</p>
+          <p>&bull; Created customer behavior profiles and delivered insights through clear visualizations for engineers and leadership.</p>
+
+          {/* Tech Stack Badges */}
+          <div className="flex gap-2 mt-4">
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
+              Python
+            </span>
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
+              Scikit-learn
+            </span>
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
+              Pandas
+            </span>
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
+              Machine Learning
+            </span>
+            <span className="px-2 py-1 bg-sky-600 text-white rounded-full text-xs">
+              Data Visualization
+            </span>
+          </div>
+        </div>
+
+
+        {/* Experience Item 2 */}
         <div className="mb-12 ml-8 relative">
           <div className="absolute -left-10 w-4 h-4 bg-gray-400 rounded-full"></div>
           <p className="text-gray-400 text-sm mb-1">SEPTEMBER 2023 - FEBRUARY 2024</p>
@@ -43,7 +81,7 @@ export default function Experiences() {
           </div>
         </div>
 
-        {/* Experience Item 2 */}
+        {/* Experience Item 3 */}
         <div className="mb-12 ml-8 relative">
           <div className="absolute -left-10 w-4 h-4 bg-gray-400 rounded-full"></div>
           <p className="text-gray-400 text-sm mb-1">APRIL 2022 - JUNE 2022</p>
@@ -82,7 +120,5 @@ export default function Experiences() {
         </div>
       </div>
     </section>
-
-    
   );
 }
