@@ -6,7 +6,7 @@ export default function WhatsNext() {
   
         {/* Description */}
         <p className="text-gray-400 mb-6 max-w-2xl">
-        I am currently seeking an internship opportunity across a broad range of fields. If my profile interests you, feel free to reach out - I would be happy to connect and discuss further!
+        I am currently seeking professional opportunities across industries. If my profile interests you, feel free to reach out - I would be happy to connect and discuss further!
         </p>
   
         {/* Skill Tags */}

@@ -17,7 +17,7 @@ export default function SkillSection() {
             <h3 className="text-xl font-bold text-white mb-4 group-hover:text-teal-400">
               Programming Languages
             </h3>
-            <p className="text-gray-400">Python, Java, SQL, JavaScript, R</p>
+            <p className="text-gray-400">Python, SQL, Java, JavaScript, C++</p>
           </div>
 
           {/* Card 2: Data Analysis & Visualization */}
@@ -78,7 +78,7 @@ export default function SkillSection() {
             <h3 className="text-xl font-bold text-white mb-4 group-hover:text-green-400">
               Tools & Technologies
             </h3>
-            <p className="text-gray-400">Git, Docker, Jupyter Notebook</p>
+            <p className="text-gray-400">Dataiku DSS, Git, Docker, Jupyter Notebook, MLFlow, DVC</p>
           </div>
         </div>
       </div>
